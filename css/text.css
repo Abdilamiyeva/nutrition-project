@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-decoration: none;
-    list-style: none; */
     text-decoration: none;
 }
 body{
@@ -17,6 +15,7 @@ body{
     margin: 0 auto;
     margin-bottom: 98px;
     margin-top: 60px;
+    padding: 25px;
 }
 h2{
     margin-bottom: 40px;
