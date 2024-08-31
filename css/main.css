@@ -1252,17 +1252,17 @@ footer{
     /* services start */
     .services_card_wrapper{
         flex-direction: column;
-        /* margin-bottom: 26px; */
         gap: 0;
         margin-bottom: 0;
     }
     .services_card_left_side{
-        /* display: block; */
         flex-direction: column;
+    }
+    .services_title{
+        text-align: center;
     }
     #hidden{
         display: block;
-        /* margin-top: 0; */
         margin-bottom: 26px;
     }
     .services_card_2{
