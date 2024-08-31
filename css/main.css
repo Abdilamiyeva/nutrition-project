@@ -389,10 +389,12 @@ nav .tel:hover{
     font-weight: 400;
     line-height: 150%;
     transition: all 0.25s ease;
+
 }
 .services_card_btn:hover{
     background:#f18fe8;
     color: white;
+    cursor: pointer;
 }
 #hide_item{
     display: none;
@@ -644,7 +646,6 @@ nav .tel:hover{
 }
 .health_card button:hover{
     background:#414a06;
-    border-radius: 25px;
     color: white;
 }
 .card{
@@ -1601,5 +1602,11 @@ footer{
     }
     .date_cards_wrapper{
         gap: 10px;
+    }
+    .work_card_mobile_in h3{
+        font-size: 45px;
+    }
+    .work_mb_line {
+        margin-left: -20px;
     }
 }
