@@ -4,10 +4,507 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <a href="./privacy-policy.html">Privacy Policy </a>  <br>
-    <a href="./terms.html"> Terms</a>
+    
+    <!-- header start  -->
+     <header>
+        <div class="container">
+            <div class="header_top">
+                <p class="text">
+                    11213 Campestre Ln Apt A 
+                    <span>
+                        El Paso, TX 79936
+                    </span>
+                </p>
+                <a  class="header_top_email" href="#">johnathan.kensmith@yahoo.com</a>
+            </div>
+            <div class="line"></div>
+            <nav class="nav">
+                <a class="logo" href="#"><img src="./images/logotip.svg" alt="logo"></a>
+                <ul class="nav_links">
+                    <li class="nav_item"><a href="#">Main</a></li>
+                    <li class="nav_item"><a href="#">Why choose us</a></li>
+                    <li class="nav_item"><a href="#">Results</a></li>
+                    <li class="nav_item"><a href="#">How we work</a></li>
+                    <li class="nav_item"><a href="#">Our advantages</a></li>
+                </ul>
+                <a  class="tel" href="tel:+12543924509">+(1)254-392-4509</a>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><img src="./images/bars.svg" alt=""></label>
+                <ul class="nav_links-2 hidden">
+                    <div class="nav_links_contain">
+                        <input type="checkbox" id="check">
+                        <label for="check" id="checkbtn" class="checkbtn"> <img src="./images/close_icon.svg" alt="close"></label>
+                        <li class="nav_item first_nav_item"><a href="#">Main</a></li>
+                        <li class="nav_item"><a href="#">Why choose us</a></li>
+                        <li class="nav_item"><a href="#">Results</a></li>
+                        <li class="nav_item"><a href="#">How we work</a></li>
+                        <li class="nav_item"><a href="#">Our advantages</a></li>
+                        <p class="contact">Contact:</p>
+                        <li class="nav_item"><a href="#">11213 Campestre Ln Apt A </a></li>
+                        <li class="nav_item"><a href="#">El Paso, TX 79936</a></li>
+                        <li class="nav_item"><a class="link" href="#">johnathan.kensmith@yahoo.com</a></li>
+                        <a  class="tel" href="tel:+12543924509">+(1)254-392-4509</a> <br>
+                        <button class="btn nav_btn">
+                            sign up
+                        </button>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+     </header>
+    <!-- header end  -->
+     <!-- home start  -->
+      <section class="home">
+        <div class="container">
+            <h1 class="home_title">Individual <br> Dietary Services</h1>
+                <p class="home_information">Our expert nutritionists will help you achieve your health and nutrition goals. Personalized nutrition plans that take into account all your preferences and body characteristics will help you feel better and be more energetic.</p>
+                <button class="btn">sign up</button>
+        </div>
+      </section>
+     <!-- home end -->
+      <!-- about start  -->
+       <section class="about">
+            <div class="container">
+                <div class="about_information">
+                    <h2 class="about_title">About me</h2>
+                    <p class="about_text">Hello everyone My name is Johnathan Kenneth Smith
+                        , I am a nutritionist with many years of experience. I help people achieve their health and nutrition goals through customized plans based on your unique needs and preferences. If you want to change your life and feel better, I am ready to help you along the way!
+                    </p>
+                    <button class="btn">sign up</button>  
+                </div>
+                <div class="about_img">
+                    <img src="./images/about_img.png" alt="about_img">
+                </div>
+            </div>
+       </section>
+      <!-- about end -->
+       <!-- services start  -->
+        <section  class="services">
+            <div class="container">
+                <h2 class="services_title">Why choose us</h2>
+                <div class="services_card_wrapper">
+                    <div class="services_card_left_side">
+                        <a href="#" class="services_card">
+                            <h3>Individual
+                                meal plans
+                            </h3>
+                            <p>Personalized diets tailored to your unique needs and goals.</p>
+                        </a>
+                        <a id="hidden" href="#" class="services_card_3">
+                            <h3>Nutrition for chronic diseases</h3>
+                            <p>Special dietary recommendations for improving the condition of diabetes, hypertension and other chronic diseases.</p>
+                            <button>sign up</button>
+                        </a>
+                        <a href="#" class="services_card_2">
+                            <h3>Weight control and reduction
+                            </h3>
+                            <p>Programs for safe and sustainable weight loss, adapted to your lifestyle.</p>
+                        </a>
+                        
+                    </div>
+                    <a href="#" id="services_card_right" class="services_card_3">
+                        <h3>Nutrition for chronic diseases</h3>
+                        <p>Special dietary recommendations for improving the condition of diabetes, hypertension and other chronic diseases.</p>
+                        <button>sign up</button>
+                    </a>
+                </div>
+                <div id="services_card_reverse" class="services_card_wrapper">
+                    <div class="services_card_left_side">
+                        <a href="#" class="services_card_3">
+                            <h3 id="services_card_title">Consultations on vegetarian and vegan nutrition</h3>
+                            <p>Special dietary recommendations for improving the condition of diabetes, hypertension and other chronic diseases.</p>
+                            <button>sign up</button>
+                        </a>
+                        <a href="#" class="services_card_2">
+                            <h3 id="services_card_title_2">Nutrition for pregnant and lactating women
+                            </h3>
+                            <p>Diets that provide the necessary nutrition for the health of mom and baby.</p>
+                        </a>
+                    </div>
+                    <div class="services_card_rigth_side">
+                        <a href="#" class="services_card_green">
+                            <h3>Sports
+                                nutrition</h3>
+                                <p>Nutrition plans to improve athletic performance and recovery after training.</p>
+                        </a>
+                        <a href="#" id="services_card_blue" class="services_card_2">
+                            <h3 id="services_card_title_2">Detox
+                                programs
+                            </h3>
+                            <p>Body cleansing programs to improve overall well-being and increase energy.</p>
+                        </a>
+                        <a href="#" class="services_card_green">
+                            <h3>Sports
+                                nutrition</h3>
+                                <p>Nutrition plans to improve athletic performance and recovery after training.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!-- services end  -->
+       <!-- results start -->
+        <section class="results">
+            <div class="container">
+                <div class="results_info">
+                    <h3>Results that <br> can be trusted</h3>
+                        <p class="text">
+                            We are proud of our customers' results! Look at how the lives of the people who entrusted their health to us have changed.
+                        </p>
+                </div>
+                <div class="results_card">
+                     <img src="./images/apostrif-left.svg" alt="">
+                    <p class="text" >
+                        With the help of a nutritionist, I was able to lose 10 kg and feel great!</p>
+                    <img class="apos" src="./images/apostrif-right.svg" alt=""> 
+                    
+                    <div class="user">
+                        <img src="./images/user-img-1.svg" alt="">
+                        <span class="user_name">Faas Chan</span>
+                    </div>
+                </div>
+                <div class="results_card">
+                    <img src="./images/apostrif-left.svg" alt="">
+                   <p class="results_card_text">
+                    Now I know how to eat right, and my diabetes is no longer in control of my life.</p>
+                   <img class="apos-2" src="./images/apostrif-right.svg" alt=""> 
+                   
+                   <div class="user-2">
+                       <img src="./images/user-img-2.svg" alt="">
+                       <span class="user_name">Eógan Eadmund</span>
+                   </div>
+               </div>
+            </div>
+        </section>
+       <!-- results end -->
+        <!-- work start  -->
+         <section class="work">
+                <div class="container">
+                    <h2>How we work</h2>
+                    <div class="work_cards">
+                        <div class="work_card_wrapper">
+                            <div class="work_card">
+                                <div class="work_card_in">
+                                    <img src="./images/01.svg" alt="">
+                                    <h3>The first consultation</h3>
+                                    <p>getting to know you and your goals.</p>
+                                </div>
+                                <div class="line_1">
+                                    <img   src="./images/line-1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="work_card">
+                                <div class="work_card_in">
+                                    <img src="./images/03.svg" alt="">
+                                    <h3>Developing a plan</h3>
+                                    <p>creating an individual nutrition program.</p>
+                                </div>
+                                <div class="line_wrap" >
+                                    <img class="line_2"  src="./images/line-2.svg" alt="">
+                                    <img class="line_3" src="./images/line-3.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work_card_wrapper_2">
+                            <div class="work_card">
+                                <div class="work_card_in">
+                                    <img src="./images/02.svg" alt="">
+                                    <h3>Condition analysis</h3>
+                                    <p>assessment of health and eating habits.</p>
+                                </div>
+                            </div>
+                            <div class="work_card">
+                                <div class="work_card_in">
+                                    <img src="./images/04.svg" alt="">
+                                    <h3>Escort</h3>
+                                    <p>regular consultations and adjustments to the plan.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="work_cards_mobile">
+                        <div class="work_card_mobile">
+                            <div class="work_card_mobile_in">
+                                <img src="./images/01.svg" alt="">
+                                <h3>The first consultation</h3>
+                                <p>getting to know you and your goals.</p>
+                            </div>
+                            <div class="work_mb_line">
+                                <img src="./images/line_mb_1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="work_card_mobile work_card_mobile_2">
+                            <div class="work_mb_line_2">
+                                <img src="./images/line_mb_2.svg" alt="">
+                            </div>
+                            <div class="work_card_mobile_in">
+                                <img src="./images/02.svg" alt="">
+                                <h3>Condition analysis</h3>
+                                <p>assessment of health and eating habits.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="work_card_mobile">
+                            <div class="work_card_mobile_in">
+                                <img src="./images/03.svg" alt="">
+                                <h3>Developing a plan</h3>
+                                <p>creating an individual nutrition program.</p>
+                            </div>
+                            <div class="work_mb_line">
+                                <img src="./images/line_mb_3.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="work_card_mobile work_card_mobile_4">
+                            <div class="work_mb_line_2">
+                                <img src="./images/line_mb_4.svg" alt="">
+                            </div>
+                            <div class="work_card_mobile_in">
+                                <img src="./images/04.svg" alt="">
+                                <h3>Escort</h3>
+                                <p>regular consultations and adjustments to the plan.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+         </section>
+        <!-- work end -->
+         <!-- health start -->
+          <section class="health">
+            <div class="container">
+                <div class="health_card">
+                    <h2 class="health_title">Start the path
+                        to health today!</h2>
+                    <p class="health_info">
+                        Don't put off taking care of yourself for later. Health is the main capital, and we will help you invest in it correctly.
+                    </p>
+                    <button >sign up</button>
+                </div>
+                <div class="card"></div>
+                <div class="health_img">
+                    <img src="./images/health_img.png" alt="">
+                </div>
+            </div>
+          </section>
+         <!-- health end -->
+
+         <!-- date start  -->
+          <section class="date">
+                <div class="container">
+                    <h3 class="date_title">Today</h3>
+                    <h2> Thursday, 26 May 2022</h2>
+                    <div class="date_cards_wrapper">
+                        <div class="date_card">
+                            <p>Thu <br>26</p>
+                        </div>
+                        <div class="date_card active">
+                            <p>Fri <br>27</p>
+                        </div>
+                        <div class="date_card">
+                            <p>Sat<br>28</p>
+                        </div>
+                        <div class="date_card">
+                            <p>Sun <br>29</p>
+                        </div>
+                        <div class="date_card">
+                            <p>Mon <br>30</p>
+                        </div>
+                        <div class="date_card">
+                            <p>Tue <br>31</p>
+                        </div>
+                        <div class="date_card">
+                            <p>Wed <br>01</p>
+                        </div>
+                    </div>
+                   <div class="date_inner">
+                    <div class="hours_card_wrapper">
+                        <div class="hours_card">
+                            <span>08:00 am</span>
+                            <img class="hide" src="./images/hours_line-1.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>09:45 am</span>
+                            <img class="hide" src="./images/hours_line-2.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>10:50 am</span>
+                            <img class="hide" src="./images/hours_line_3.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>02:40 pm</span>
+                            <div class="hours_card_line"></div>
+                        </div>
+                    </div>
+                    <div class="appointment_card_wrapper">
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div>
+                        <div class="appointment_card appointment_active">
+                            <p>The appointment has already been booked</p>
+                        </div>
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div>
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div> 
+                        
+                    </div>
+                   </div>
+                   <div class="date_inner ">
+                    <div class="hours_card_wrapper">
+                        <div class="hours_card">
+                            <span>02:40 pm</span>
+                            <img class="hide" src="./images/hours_line-1.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>04:00 pm</span>
+                            <img class="hide" src="./images/hours_line-2.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>06:00 pm</span>
+                            <img class="hide" src="./images/hours_line_3.svg" alt="">
+                            <div class="hours_card_line"></div>
+                        </div>
+                        <div class="hours_card">
+                            <span>10:50 pm</span>
+                        </div>
+                    </div>
+                    <div class="appointment_card_wrapper">
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div>
+                        <div class="appointment_card appointment_active">
+                            <p>The appointment has already been booked</p>
+                        </div>
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div>
+                        <div class="appointment_card">
+                            <p>There is a free appointment</p>
+                        </div> 
+                        
+                    </div>
+                   </div>
+
+                </div>
+          </section>
+         <!-- date end -->
+          <!-- payment methods page start -->
+           <section class="payment_method"> 
+                <div class="container">
+                    <h2 class="payment_method_title">Payment methods</h2>
+                    <div class="payment_types">
+                        <div class="payment_type">
+                            <img src="./images/cridit_card.svg" alt="">
+                            <span class="payment_type_name">Debit/Credit card</span>
+                        </div>
+                        <div class="payment_type">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                                <path d="M58.529 24.7282C59.9634 27.2965 60.1518 30.6045 59.4048 34.4338C57.2447 45.5328 49.8498 49.3671 40.4057 49.3671H38.9473C37.7944 49.3671 36.8123 50.2091 36.6315 51.3487L36.5131 51.9921L34.6773 63.6375L34.5823 64.1333C34.4014 65.2728 33.4194 66.1128 32.2664 66.1128H22.5169C21.6516 66.1128 20.9905 65.3408 21.1247 64.4871L21.6354 61.2516H26.0647L28.8336 43.6913H32.8748C46.519 43.6913 55.477 37.2673 58.529 24.7282ZM49.8936 9.88283C52.1181 12.416 52.7642 15.1651 52.0901 19.4652C52.0341 19.8231 51.9743 20.1672 51.9081 20.5132C49.7638 31.5183 42.8997 36.3996 31.621 36.3996H26.124C24.2849 36.3996 22.7017 37.6056 22.1769 39.3215L22.1343 39.3148L19.4234 56.5071H9.10426C9.01157 56.5071 8.94178 56.4257 8.95633 56.333L16.5341 8.17509C16.7461 6.82768 17.9072 5.83496 19.2712 5.83496H36.6998C43.0663 5.83496 47.5404 7.20197 49.8936 9.88283Z" fill="white"/>
+                            </svg>
+                            <span class="payment_type_name">Paypall</span>
+                        </div>
+                        <div class="payment_type">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                                <path d="M5.8476 26.249H61.2643C62.8752 26.249 64.181 27.5548 64.181 29.1657V58.3324C64.181 59.9433 62.8752 61.2491 61.2643 61.2491H8.76426C7.15345 61.2491 5.8476 59.9433 5.8476 58.3324V26.249ZM8.76426 8.74902H52.5143V20.4157H5.8476V11.6657C5.8476 10.0548 7.15345 8.74902 8.76426 8.74902ZM43.7643 40.8324V46.6657H52.5143V40.8324H43.7643Z" fill="white"/>
+                              </svg>
+                            <span class="payment_type_name">EWallets</span>
+                        </div>
+                    </div>
+                </div>
+
+           </section>
+          <!-- payment methods page end -->
+           <!-- diet start -->
+            <section class="diet">
+                <div class="container">
+                    <div class="diet_left_content">
+                        <div class="right_content_information">
+                            <h3 class="diet_title">Get reliable support today</h3>
+                            <p class="diet_info">Leave a request on our website, and our manager will contact you for advice and selection of the optimal service plan.</p>
+                            <form action="#">
+                                <label class="input_wrapper" for="">
+                                    <div class="img">
+                                        <img src="./images/diet_user.svg" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Enter your name">
+                                </label> <br>
+                                <label  class="input_wrapper" for="">
+                                    <div class="img">
+                                        <img src="./images/phone_icon.svg" alt="">
+                                    </div>
+                                    <input type="text" placeholder=" Enter your phone number">
+                                </label> <br>
+                                <label  class="input_wrapper" for="">
+                                    <div class="img">
+                                        <img src="./images/message.svg" alt="">
+                                    </div>
+                                    <input type="text" placeholder=" Enter your E-mail">
+                                </label> <br>
+                                <label  class="text_area_wrapper" for="">
+                                    <div class="img">
+                                        <img src="./images/message.svg" alt="">
+                                    </div>
+                                    <input class="text_area" type="text" placeholder=" Enter your message">  
+                                    
+                                </label> <br>
+                                <button class="btn">send</button>
+                            </form>
+                        </div>
+                        <div  class="blured_card"></div>
+                    </div>
+                    <img class="diet_img" src="./images/diet_img.png" alt="">
+                </div>
+            </section>
+           <!-- diet end -->
+     <!-- footer start  -->
+      <footer>
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="footer_content">
+                        <h2 class="footer_title">Catalog</h2>
+                        <p class="footer_links"> 
+                            <a class="footer_link" href="#">Main</a>
+                            <a class="footer_link" href="#">Our advantages</a>
+                        </p>
+                        <a class="footer_link" href="#">Why choose us</a>
+                        <a class="footer_link" href="#">Results</a>
+                        <a class="footer_link" href="#">How we work</a>
+                    </div>
+                    <div class="footer_content">
+                        <h2 class="footer_title">Our Location</h2>
+                        <p class="footer_text">110 16th St Mall , Denver ,CO 80202</p>
+                        <div class="sponsors">
+                            <a href="#"><img src="./images/Mastercard.svg" alt=""></a>
+                            <a href="#"><img src="./images/Visa.svg" alt=""></a>
+                            <a href="#"><img src="./images/Amex.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom_wrapper">
+                    <div class="footer_line"></div>
+                    <div class="footer_bottom_content">
+                        <p>Copyright 2024 All Rights Reserved</p>
+                        <p>
+                            <a href="#">Terms & Conditions</a>
+                            <a class="link_hide" href="#">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+      </footer>
+     <!-- footer end  -->
+         
 </body>
 </html>
