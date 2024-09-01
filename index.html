@@ -27,11 +27,11 @@
             <nav class="nav">
                 <a class="logo" href="#"><img src="./images/logotip.svg" alt="logo"></a>
                 <ul class="nav_links">
-                    <li class="nav_item"><a href="#">Main</a></li>
-                    <li class="nav_item"><a href="#">Why choose us</a></li>
-                    <li class="nav_item"><a href="#">Results</a></li>
-                    <li class="nav_item"><a href="#">How we work</a></li>
-                    <li class="nav_item"><a href="#">Our advantages</a></li>
+                    <li class="nav_item"><a href="#diet">Main</a></li>
+                    <li class="nav_item"><a href="#diet">Why choose us</a></li>
+                    <li class="nav_item"><a href="#diet">Results</a></li>
+                    <li class="nav_item"><a href="#diet">How we work</a></li>
+                    <li class="nav_item"><a href="#diet">Our advantages</a></li>
                 </ul>
                 <a  class="tel" href="tel:+12543924509">+(1)254-392-4509</a>
                 <input type="checkbox" id="check">
@@ -40,11 +40,11 @@
                     <div class="nav_links_contain">
                         <input type="checkbox" id="check">
                         <label for="check" id="checkbtn" class="checkbtn"> <img src="./images/close_icon.svg" alt="close"></label>
-                        <li class="nav_item first_nav_item"><a href="#">Main</a></li>
-                        <li class="nav_item"><a href="#">Why choose us</a></li>
-                        <li class="nav_item"><a href="#">Results</a></li>
-                        <li class="nav_item"><a href="#">How we work</a></li>
-                        <li class="nav_item"><a href="#">Our advantages</a></li>
+                        <li class="nav_item first_nav_item"><a class="item"  onclick="document.getElementById('check').checked = false;" href="#diet">Main</a></li>
+                        <li class="nav_item"><a class="item"  onclick="document.getElementById('check').checked = false;"  href="#diet">Why choose us</a></li>
+                        <li class="nav_item"><a class="item"  onclick="document.getElementById('check').checked = false;" href="#diet">Results</a></li>
+                        <li class="nav_item"><a class="item"  onclick="document.getElementById('check').checked = false;"  href="#diet">How we work</a></li>
+                        <li class="nav_item"><a class="item"  onclick="document.getElementById('check').checked = false;" href="#diet">Our advantages</a></li>
                         <p class="contact">Contact:</p>
                         <li class="nav_item"><a href="#">11213 Campestre Ln Apt A </a></li>
                         <li class="nav_item"><a href="#">El Paso, TX 79936</a></li>
@@ -425,7 +425,7 @@
            </section>
           <!-- payment methods page end -->
            <!-- diet start -->
-            <section class="diet">
+            <section id="diet" class="diet">
                 <div class="container">
                     <div class="diet_left_content">
                         <div class="right_content_information">
@@ -503,6 +503,9 @@
             </div> 
       </footer>
      <!-- footer end  -->
-         
+         <script>
+            const all__items =  document.querySelectorAll('.item')
+
+         </script>
 </body>
 </html>

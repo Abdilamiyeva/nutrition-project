@@ -1222,6 +1222,7 @@ footer{
         text-align: right;
         transition: all 0.5s;
         background: #28292D;
+        z-index: 9999;
         backdrop-filter: blur(3.5px);
     }
     .nav_links_contain{
